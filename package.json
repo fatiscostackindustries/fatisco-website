@@ -1,0 +1,30 @@
+{
+  "name": "fatisco-website",
+  "version": "1.0.0",
+  "description": "Official website for FATISCO STACK INDUSTRIES.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=index.html",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatiscostackindustries/fatisco-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fatiscostackindustries/fatisco-website/issues"
+  },
+  "homepage": "https://github.com/fatiscostackindustries/fatisco-website#readme",
+  "devDependencies": {
+    "eslint": "^10.8.0",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.9.6"
+  }
+}
