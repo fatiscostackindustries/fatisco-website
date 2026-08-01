@@ -1,30 +1,37 @@
 {
   "name": "fatisco-website",
-  "version": "1.0.0",
-  "description": "Official website for FATISCO STACK INDUSTRIES.",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "live-server --port=3000 --open=index.html",
-    "format": "prettier --write .",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "eslint .",
-    "start": "npm run dev"
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fatiscostackindustries/fatisco-website.git"
+  "dependencies": {
+    "aos": "^2.3.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.28.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2",
+    "swiper": "^14.0.7"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/fatiscostackindustries/fatisco-website/issues"
-  },
-  "homepage": "https://github.com/fatiscostackindustries/fatisco-website#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
     "eslint": "^10.8.0",
-    "live-server": "^1.2.2",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^3.9.6"
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.0"
   }
 }
