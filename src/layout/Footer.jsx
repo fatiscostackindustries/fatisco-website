@@ -1,13 +1,23 @@
-export default function Footer() {
-  return (
-    <footer
-      style={{
-        padding: "40px",
-        textAlign: "center",
-        borderTop: "1px solid #eee",
-      }}
-    >
-      © 2026 FATISCO STACK INDUSTRIES
-    </footer>
-  );
+import Container from "../components/Container";
+
+export default function Footer(){
+
+return(
+
+<footer className="footer">
+
+<Container>
+
+<p>
+
+© 2026 FATISCO STACK INDUSTRIES
+
+</p>
+
+</Container>
+
+</footer>
+
+);
+
 }

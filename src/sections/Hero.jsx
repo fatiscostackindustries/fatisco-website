@@ -1,89 +1,136 @@
-export default function Hero() {
-  return (
-    <section
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "80px 40px",
-        background: "#0f172a",
-        color: "#fff",
-        textAlign: "center",
-      }}
-    >
-      <div style={{ maxWidth: "900px" }}>
-        <p
-          style={{
-            color: "#8b5cf6",
-            fontWeight: 700,
-            letterSpacing: "2px",
-            textTransform: "uppercase",
-          }}
-        >
-          Technology • Ecommerce • AI
-        </p>
+import Button from "../components/Button";
+import Container from "../components/Container";
+import hero from "../assets/hero.png";
 
-        <h1
-          style={{
-            fontSize: "64px",
-            margin: "24px 0",
-            lineHeight: "1.1",
-          }}
-        >
-          Building Smarter Ecommerce Businesses Through Technology
-        </h1>
+export default function Hero(){
 
-        <p
-          style={{
-            fontSize: "20px",
-            color: "#cbd5e1",
-            maxWidth: "700px",
-            margin: "0 auto 40px",
-          }}
-        >
-          FATISCO STACK INDUSTRIES helps ecommerce businesses improve their
-          stores, automate operations, create AI-powered content and build
-          digital experiences that convert visitors into customers.
-        </p>
+return(
 
-        <div
-          style={{
-            display: "flex",
-            gap: "20px",
-            justifyContent: "center",
-            flexWrap: "wrap",
-          }}
-        >
-          <button
-            style={{
-              padding: "16px 36px",
-              background: "#7c3aed",
-              color: "#fff",
-              border: "none",
-              borderRadius: "10px",
-              cursor: "pointer",
-              fontWeight: "bold",
-            }}
-          >
-            Get Started
-          </button>
+<section className="hero">
 
-          <button
-            style={{
-              padding: "16px 36px",
-              background: "transparent",
-              color: "#fff",
-              border: "2px solid #fff",
-              borderRadius: "10px",
-              cursor: "pointer",
-              fontWeight: "bold",
-            }}
-          >
-            View Services
-          </button>
-        </div>
-      </div>
-    </section>
-  );
+<div className="hero-blur hero-blur-1"></div>
+
+<div className="hero-blur hero-blur-2"></div>
+
+<Container className="hero-grid">
+
+<div className="hero-content">
+
+<span className="hero-badge">
+
+Technology • Ecommerce • AI
+
+</span>
+
+<h1>
+
+Building Smarter
+
+<span className="gradient-text">
+
+ Ecommerce Businesses
+
+</span>
+
+Through Technology
+
+</h1>
+
+<p>
+
+FATISCO STACK INDUSTRIES helps ecommerce businesses build
+better online experiences through Shopify development,
+AI-powered automation, conversion optimization,
+creative content and scalable digital solutions.
+
+</p>
+
+<div className="hero-actions">
+
+<Button>
+
+Start Your Project
+
+</Button>
+
+<Button
+variant="outline"
+href="#services"
+>
+
+Explore Services
+
+</Button>
+
+</div>
+
+<div className="hero-stats">
+
+<div>
+
+<h3>250+</h3>
+
+<p>Projects Planned</p>
+
+</div>
+
+<div>
+
+<h3>AI</h3>
+
+<p>Automation Ready</p>
+
+</div>
+
+<div>
+
+<h3>Global</h3>
+
+<p>Remote Services</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div className="hero-visual">
+
+<div className="dashboard">
+
+<img
+src={hero}
+alt="FATISCO STACK"
+/>
+
+<div className="floating-card">
+
+<h4>Store Performance</h4>
+
+<strong>+42%</strong>
+
+<span>Conversion Growth</span>
+
+</div>
+
+<div className="floating-card second">
+
+<h4>AI Automation</h4>
+
+<strong>24/7</strong>
+
+<span>Business Operations</span>
+
+</div>
+
+</div>
+
+</div>
+
+</Container>
+
+</section>
+
+);
+
 }
