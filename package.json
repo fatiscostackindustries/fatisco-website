@@ -6,46 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
-    "aos": "^2.3.4",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.43.0",
-    "lucide-react": "^1.28.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.2",
-    "swiper": "^14.0.7"
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@tailwindcss/vite": "^4.3.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",
-    "eslint": "^10.8.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.3",
-    "globals": "^17.7.0",
-    "live-server": "^1.2.2",
-    "prettier": "^3.9.6",
-    "tailwindcss": "^4.3.3",
+    "oxlint": "^1.75.0",
     "vite": "^8.2.0"
-  },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fatiscostackindustries/fatisco-website.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fatiscostackindustries/fatisco-website/issues"
-  },
-  "homepage": "https://github.com/fatiscostackindustries/fatisco-website#readme"
+  }
 }
